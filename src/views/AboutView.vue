@@ -1,13 +1,12 @@
 <script setup lang="ts">
-  import { reactive, ref, defineProps } from 'vue'
-  interface Props {
-    id: string | number
-  }
-  const props = defineProps < Props > ();
-  type a = {
-    x: string
-  }
-
+import { reactive, ref, defineProps } from "vue";
+interface Props {
+  id: string | number;
+}
+const props = defineProps<Props>();
+type a = {
+  x: string;
+};
 </script>
 <template>
   <div class="about">
@@ -15,5 +14,4 @@
   </div>
 </template>
 
-<style>
-</style>
+<style></style>

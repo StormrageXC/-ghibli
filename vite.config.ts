@@ -15,7 +15,7 @@ export default defineConfig({
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url)),
       //编译时标志仅在使用 Vue 的 esm-bundler 构建版本时生效 (即 vue/dist/vue.esm-bundler.js)。
-      // "vue": "vue/dist/vue.esm-bundler.js"
+      "vue": "vue/dist/vue.esm-bundler.js"
     },
   },
   css: {
